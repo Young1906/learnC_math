@@ -1,4 +1,5 @@
 #include "mat.h"
+#include "det.c"
 #include <stdio.h>
 
 int main(void) {
@@ -11,4 +12,7 @@ int main(void) {
 
 	Matrix c = Mult(a, b);
 	c.print();
+
+
+	printf("%lf", Det(c));
 }

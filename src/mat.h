@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#pragma one
 
 typedef struct Matrices {
 	double * entries;
@@ -123,4 +124,5 @@ Matrix Mult(Matrix a, Matrix b){
 	return c;
 
 };
+
 
